@@ -4,3 +4,9 @@
     color: white;
     padding: 80px 0;
 }
+
+.mision-vision {
+    background-color: #ffffff;
+    border-left: 5px solid #198754; /* Tu verde success */
+    border-radius: 4px;
+}
