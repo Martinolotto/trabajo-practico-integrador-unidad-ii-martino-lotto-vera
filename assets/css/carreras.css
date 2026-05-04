@@ -21,3 +21,14 @@
     font-size: 0.8rem;
     text-transform: uppercase;
 }
+
+/*REQUISITOS*/
+.seccion-requisitos {
+    background-color: #142A35;
+    color: white;
+    padding: 40px;
+}
+.seccion-requisitos h4 {
+    color: #198754;
+    font-weight: 700;
+}
