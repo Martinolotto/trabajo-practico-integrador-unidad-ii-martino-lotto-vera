@@ -1,0 +1,12 @@
+.seccion-contacto {
+    padding: 60px ;
+}
+/* Estilo para los cuadros de texto */
+.form-control {
+    border-radius: 0;
+    border: 1px solid #142A35;
+}
+.titulo-contacto {
+    color: #142A35;
+    font-weight: 700;
+}
