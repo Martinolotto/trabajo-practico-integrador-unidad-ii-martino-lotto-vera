@@ -1,8 +1,9 @@
 /*PALETA DE COLORES:
-Azul Petróleo Profundo (#1D3D49)
 Crema / Blanco Hueso (#F2E9D4)
 Gris Carbón (#2C2F33)
-Gris Azulado Oscuro (#454B52)
+Azul Produndo: #142A35
+Celeste:#2E5A6A
+Azul logo; #1F3F4F
 */
 
 * {
@@ -16,7 +17,7 @@ Gris Azulado Oscuro (#454B52)
 background-color: #142A35;
 background-size: cover;
 padding: 10px 0;
-border-top: 20px solid #454B52;
+border-top: 20px solid #1F3F4F;
 background-image: linear-gradient(to right, rgba(0,0,0,0.4) 0%, transparent 15%, transparent 85%, rgba(0,0,0,0.4) 100%);
  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
