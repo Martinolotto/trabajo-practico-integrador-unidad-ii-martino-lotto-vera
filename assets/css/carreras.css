@@ -1,0 +1,23 @@
+.titulo-oferta {
+    background-color: #142A35;
+    color: white;
+    padding: 60px 0;
+    border-bottom: 5px solid #198754;
+}
+/*CARDS*/
+.card-carrera {
+    border: none;
+    border-radius: 0; /* Estilo recto como tus otras secciones */
+    border-top: 5px solid #198754;
+    transition: transform 0.3s ease;
+}
+.card-carrera:hover {
+    transform: scale(1.02);
+}
+.duracion {
+    background-color: #142A35;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}

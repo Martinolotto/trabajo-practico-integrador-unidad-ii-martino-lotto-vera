@@ -1,15 +1,217 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/carreras.css">
-</head>
-<body>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carreras</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/carreras.css" />
+  </head>
+  <body>
+    <header class="cabecera-estilo">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand fw-bold fs-3 titulo-header" href="index.html">
+            <i class="bi bi-cup-hot-fill me-2"></i
+            ><img
+              src="assets/img/Logo-IPF-png.png"
+              alt="logo del Instituto"
+              width="80"
+              height="80"
+              class="me-4 d-inline-block align-text-center"
+            />
+
+            INSTITUTO POLITÉCNICO FORMOSA
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto fw-semibold text-uppercase">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Inicio</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="carreras.html">Carreras</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="institucional.html">institucional</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- titulo -->
+    <section class="titulo-oferta text-center">
+      <div class="container">
+        <h1 class="display-5 fw-bold">Oferta Académica</h1>
+        <p class="lead">
+          Formación técnica de excelencia para el desarrollo de Formosa
+        </p>
+      </div>
+    </section>
+
+    <!-- 
+Cards carreras -->
+    <section class="container py-5">
+      <div class="row g-4">
+        <!-- Software -->
+        <div class="col-lg-6">
+          <div class="card h-100 shadow-sm card-carrera p-3">
+            <div class="card-body">
+              <span class="duracion">2 Años - Título Oficial</span>
+              <h3 class="fw-bold mt-3">
+                Desarrollo de Software Multiplataforma
+              </h3>
+              <p class="text-muted">
+                Desarrollo de aplicaciones móviles, sistemas web y soluciones
+                tecnológicas adaptadas a la industria actual.
+              </p>
+              <a href="contacto.html" class="btn btn-success fw-bold"
+                >Más información</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Mecatrónica -->
+        <div class="col-lg-6">
+          <div class="card h-100 shadow-sm card-carrera p-3">
+            <div class="card-body">
+              <span class="duracion">3 Años - Título Oficial</span>
+              <h3 class="fw-bold mt-3">Mecatrónica</h3>
+              <p class="text-muted">
+                Automatización de procesos industriales mediante la integración
+                de mecánica, electrónica y sistemas de control.
+              </p>
+              <a href="contacto.html" class="btn btn-success fw-bold"
+                >Más información</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Telecomunicaciones -->
+        <div class="col-lg-6">
+          <div class="card h-100 shadow-sm card-carrera p-3">
+            <div class="card-body">
+              <span class="badge-duracion"
+                >2 Años y Medio - Título Oficial</span
+              >
+              <h3 class="fw-bold mt-3">Telecomunicaciones</h3>
+              <p class="text-muted">
+                Gestión de redes de conectividad, fibra óptica y sistemas de
+                transmisión de datos para la era digital.
+              </p>
+              <a href="contacto.html" class="btn btn-success fw-bold"
+                >Más información</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Química -->
+        <div class="col-lg-6">
+          <div class="card h-100 shadow-sm card-carrera p-3">
+            <div class="card-body">
+              <span class="badge-duracion">3 Años - Título Oficial</span>
+              <h3 class="fw-bold mt-3">Química Industrial</h3>
+              <p class="text-muted">
+                Análisis y control de procesos químicos industriales, enfocados
+                en la producción y seguridad ambiental.
+              </p>
+              <a href="contacto.html" class="btn btn-success fw-bold"
+                >Más información</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="pie-pagina text-light pt-5 pb-4">
+      <div class="container text-center text-md-start">
+        <div class="row">
+          <div class="col-md-4 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 fw-bold">
+              Instituto Politécnico Formosa
+            </h5>
+            <p>
+              El Instituto Politécnico Formosa es una institución educativa de
+              excelencia que ofrece una amplia variedad de carreras técnicas y
+              profesionales.
+            </p>
+          </div>
+
+          <div class="col-md-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 fw-bold">Navegación</h5>
+            <p>
+              <a href="index.html" class="text-white text-decoration-none"
+                >Inicio</a
+              >
+            </p>
+            <p>
+              <a href="carreras.html" class="text-white text-decoration-none"
+                >Carreras</a
+              >
+            </p>
+            <p>
+              <a
+                href="institucional.html"
+                class="text-white text-decoration-none"
+                >Institucional</a
+              >
+            </p>
+            <p>
+              <a href="contacto.html" class="text-white text-decoration-none"
+                >Contacto</a
+              >
+            </p>
+          </div>
+
+          <div class="col-md-4 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 fw-bold">Contacto</h5>
+            <p>
+              <i class="bi bi-house-fill me-3"></i> Ruta Nac. 81 km. 1190 |
+              Formosa
+            </p>
+            <p><i class="bi bi-envelope-fill me-3"></i> ipf@gmail.com</p>
+            <p><i class="bi bi-phone-fill me-3"></i> +54 3704 000000</p>
+          </div>
+        </div>
+
+        <hr class="my-4 border-secondary" />
+
+        <div class="text-center">
+          <p class="small text-secondary m-0">
+            © 2026 Taller de Lenguaje de Programación I -
+            <strong>Martino Benjamín Lotto Vera</strong>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
