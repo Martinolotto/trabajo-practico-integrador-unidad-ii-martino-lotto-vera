@@ -13,12 +13,12 @@
     font-weight: 700;
 }
 
-.caja-info {
+.info-contacto {
     background-color: #142A35;
     color: white;
     padding: 30px;
 }
-.caja-info h3 {
+.info-contacto h3 {
     color: #198754;
 }
 .contenedor-mapa iframe {
