@@ -1,27 +1,67 @@
-
+/* TÍTULO PRINCIPAL */
 .titulo {
-    background-color: #1F3F4F;
+   background-color: #1F3F4F;
     color: white;
+    padding: 100px 0;
+    position: relative;
+    border-bottom: 8px solid #198754;
+}
+.titulo p{
+    color: #198754;
+}
+
+/*  HISTORIA*/
+.titulo-seccion {
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+.img-fluid.rounded.shadow {
+    border: 5px solid white;
+}
+
+/* 3. MISIÓN VISIÓN*/
+.fondo-cards {
+    background-color: #172d38; 
     padding: 80px 0;
+    position: relative;
 }
 
 .mision-vision {
     background-color: #ffffff;
-    border-left: 5px solid #198754; 
-    border-radius: 4px;
+    border-left: 8px solid #198754; 
+    border-radius: 15px !important; /* Bordes más modernos */
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.gris-claro {
+.mision-vision:hover {
+    transform: translateY(-10px);
     background-color: #f8f9fa;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
 
+/* AUTORIDADES*/
 .card-autoridad {
-    border: none;
-    border-top: 4px solid #142A35; 
-    transition: 0.3s;
+    background-color: #ffffff;
+    border: none ;
+    border-bottom: 5px solid #142A35; 
+    padding: 20px;
 }
 
 .card-autoridad:hover {
     transform: translateY(-5px);
-    border-top-color: #198754; 
+    border-bottom-color: #198754 !important;
+    transition: all 0.3s ease;
 }
+
+.card-autoridad h5 {
+    color: #1F3F4F;
+    font-size: 1.2rem;
+}
+
+
