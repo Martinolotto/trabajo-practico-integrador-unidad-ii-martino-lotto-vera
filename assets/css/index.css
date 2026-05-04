@@ -26,14 +26,22 @@ body {
 
 
 hr{
-    border-top: 3px solid #142A35;
+    border-top: 3px solid;
     margin: 20px 0;
 }
 
-.cards{
-    border-top: #142A35 solid 3px;
+.cards .card{
+    border-top: #142A35 solid 4px !important; /* El grosor que prefieras */
+    border-radius: 8px; /* Opcional: para que las esquinas de abajo se vean prolijas */  
 }
 .cards h5{
     color: #1F3F4F;
     margin-bottom: 20px;
+}
+
+.cards .card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 14px 28px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.08) !important;
+    border-top: #198754 solid 4px !important;
+    transition: all 0.3s;
 }
