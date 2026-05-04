@@ -16,20 +16,42 @@ body {
     filter: brightness(0.4); /* Oscurece un poco la imagen*/
 }
 
-.titulo-bienvenida {
-    color: #142A35;
-}
-
 .inscripcion{
-    background-color: #1F3F4F;
-}
 
+    background: linear-gradient(
+        rgba(31, 63, 79, 0.85), 
+        rgba(31, 63, 79, 0.85)
+      ), 
+      url('../img/Instituto-Politecnico-Formosa-1024x768.webp');
+    background-size: cover;           
+    background-position: center;      
+    padding: 100px 0;                 
+    color: white;
+}
 
 hr{
     border-top: 3px solid;
     margin: 20px 0;
 }
 
+/*BIENVENIDA*/
+.contenedor-bienvenida {
+   background-color:#172d38;
+   width: 100%; 
+   margin: 0;   
+}
+
+.titulo-bienvenida {
+    color: #198754;
+}
+
+.contenedor-bienvenida p {
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+/*CARDS*/
 .cards .card{
     border-top: #142A35 solid 4px !important; /* El grosor que prefieras */
     border-radius: 8px; /* Opcional: para que las esquinas de abajo se vean prolijas */  
