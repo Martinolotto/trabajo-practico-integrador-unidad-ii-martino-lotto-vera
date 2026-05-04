@@ -7,6 +7,21 @@
 
 .mision-vision {
     background-color: #ffffff;
-    border-left: 5px solid #198754; /* Tu verde success */
+    border-left: 5px solid #198754; 
     border-radius: 4px;
+}
+
+.gris-claro {
+    background-color: #f8f9fa;
+}
+
+.card-autoridad {
+    border: none;
+    border-top: 4px solid #142A35; 
+    transition: 0.3s;
+}
+
+.card-autoridad:hover {
+    transform: translateY(-5px);
+    border-top-color: #198754; 
 }
