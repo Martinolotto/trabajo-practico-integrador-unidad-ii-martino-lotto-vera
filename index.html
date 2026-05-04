@@ -18,7 +18,8 @@
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
           <a class="navbar-brand fw-bold fs-3 titulo-header" href="index.html">
-            <i class="bi bi-cup-hot-fill me-2"></i><img
+            <i class="bi bi-cup-hot-fill me-2"></i
+            ><img
               src="assets/img/Logo-IPF-png.png"
               alt="logo del Instituto"
               width="80"
@@ -49,9 +50,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="nosotros.html"
-                  >institucional</a
-                >
+                <a class="nav-link" href="nosotros.html">institucional</a>
               </li>
 
               <li class="nav-item">
@@ -62,19 +61,143 @@
         </div>
       </nav>
     </header>
+  
+    <main>
 
+        <!-- carrusel bootstrap -->
+      <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <!-- indicadores de abajo-->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="b"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+            class=""
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+            class="active"
+            aria-current="true"
+          ></button>
+        </div>
+       
+        <div class="carousel-inner">
 
-      <footer class="pie-pagina text-light pt-5 pb-4">
+             <!-- primer imagen del carrusel -->
+          <div class="carousel-item">
+           <img src="assets/img/Instituto-Politecnico-Formosa-Inauguracion-1.jpeg" alt="instituto de" 
+              height="100%"
+              width="100%"
+              <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-color)"
+              ></rect>
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1 class="fw-bold titulos-carr">Formamos profesionales <br> para la industria tecnológica <br> <span class="text-success">del futuro</span></h1>
+                <p class="fs-5 fw-semibold">
+                 Impulsamos el desarrollo estratégico de Formosa a través de  <br> una educación técnica superior de excelencia, vinculada directamente con el sector productivo regional.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-success px-4 fw-bold " href="institucional.html">Nosotros</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- segunda imagen del carrusel -->
+          <div class="carousel-item">
+            <img src="assets/img/IPF-Dr.-Alberto-Zorrilla-Instituto-Politecnico-Formosa.jpg" alt="laboratorio del instituto" 
+              height="100%"
+              width="100%"
+              <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-color)"
+              ></rect>
+            <div class="container">
+              <div class="carousel-caption">
+               <h1 class="fw-bold titulos-carr text-success">Prácticas Profesionales</h1>
+                <p class="fs-5 fw-semibold">
+                 Nuestros estudiantes acceden a entornos reales de aprendizaje con laboratorios especializados en Mecatrónica, Química, Desarrollo de Software y Telecomunicaciones.
+                </p>
+                <p><a class="btn btn-lg btn-success fw-bold px-4" href="carreras.html">Ver Carreras</a></p>
+              </div>
+            </div>
+          </div>
+
+           <!-- tercera imagen del carrusel -->
+          <div class="carousel-item active">
+            <img src="assets/img/Instituto-Politecnico-Formosa-IPF.jpeg"instituto de frente" 
+              height="100%"
+              width="100%"
+              <rect
+                width="100%"
+                height="100%"
+                fill="var(--bs-secondary-color)"
+              ></rect>
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1 class="fw-bold titulos-carr">Tu futuro empieza <span class="text-success">aquí</span></h1>
+                <p class="fs-5 fw-semibold">
+                  Inscribite a nuestras tecnicaturas superiores y sé parte del Instituto Politécnico Formosa, la mejor opción para tu formación profesional.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-success fw-bold px-4" href="contacto.html">Inscribite</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- flechas de navegacion del carrusel -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- ================================================== -->
+  
+    </main>
+    
+
+    <footer class="pie-pagina text-light pt-5 pb-4">
       <div class="container text-center text-md-start">
         <div class="row">
           <div class="col-md-4 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 fw-bold">Instituto Politécnico Formosa</h5>
+            <h5 class="text-uppercase mb-4 fw-bold">
+              Instituto Politécnico Formosa
+            </h5>
             <p>
-                El Instituto Politécnico Formosa es una institución educativa de
-                excelencia que ofrece una amplia variedad de carreras técnicas y
-                profesionales. Nuestro compromiso es brindar una educación de calidad
-                que prepare a nuestros estudiantes para enfrentar los desafíos del
-                mundo laboral y contribuir al desarrollo de nuestra comunidad.
+              El Instituto Politécnico Formosa es una institución educativa de
+              excelencia que ofrece una amplia variedad de carreras técnicas y
+              profesionales.
             </p>
           </div>
 
@@ -91,7 +214,9 @@
               >
             </p>
             <p>
-              <a href="institucional.html" class="text-white text-decoration-none"
+              <a
+                href="institucional.html"
+                class="text-white text-decoration-none"
                 >Institucional</a
               >
             </p>
@@ -99,11 +224,15 @@
               <a href="contacto.html" class="text-white text-decoration-none"
                 >Contacto</a
               >
+            </p>
           </div>
 
           <div class="col-md-4 mx-auto mt-3">
             <h5 class="text-uppercase mb-4 fw-bold">Contacto</h5>
-            <p><i class="bi bi-house-fill me-3"></i> Ruta Nac. 81 km. 1190 | Formosa</p>
+            <p>
+              <i class="bi bi-house-fill me-3"></i> Ruta Nac. 81 km. 1190 |
+              Formosa
+            </p>
             <p><i class="bi bi-envelope-fill me-3"></i> ipf@gmail.com</p>
             <p><i class="bi bi-phone-fill me-3"></i> +54 3704 000000</p>
           </div>
@@ -114,7 +243,7 @@
         <div class="text-center">
           <p class="small text-secondary m-0">
             © 2026 Taller de Lenguaje de Programación I -
-            <strong>Grupo MMML</strong>
+            <strong>Martino Benjamín Lotto Vera</strong>
           </p>
         </div>
       </div>
