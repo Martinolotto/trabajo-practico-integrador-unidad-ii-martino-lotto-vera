@@ -14,11 +14,26 @@ body {
     height: 60vh;
     object-fit: cover; 
     filter: brightness(0.4); /* Oscurece un poco la imagen*/
-    width: 100%;
-    height: 100%;
 }
 
-/* TITULOS */
 .titulo-bienvenida {
     color: #142A35;
+}
+
+.inscripcion{
+    background-color: #1F3F4F;
+}
+
+
+hr{
+    border-top: 3px solid #142A35;
+    margin: 20px 0;
+}
+
+.cards{
+    border-top: #142A35 solid 3px;
+}
+.cards h5{
+    color: #1F3F4F;
+    margin-bottom: 20px;
 }
